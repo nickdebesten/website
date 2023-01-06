@@ -281,6 +281,14 @@ background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
+#restaurant-menu-burger .section-title {
+	background: #444 url(../img/burger_burger.jpg) center center no-repeat fixed;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
 .section-textt {
 	background-size: 100%;
 	-webkit-background-size: cover;
