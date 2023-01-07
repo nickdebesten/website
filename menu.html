@@ -709,7 +709,6 @@ setInterval(function() {
       </div>
       <script>
         let saus = document.getElementById("saus")
-        console.log("saus")
       setInterval(function() {
         var burgers = ["./img/mayo.jpg", "./img/satesaus.png","./img/curry.png"]
         const random = burgers[Math.floor(Math.random() * burgers.length)];
@@ -815,9 +814,8 @@ setInterval(function() {
             </div>
             <script>
               let menu = document.getElementById("menus")
-              console.log("saus")
             setInterval(function() {
-              var burgers = ["./img/friet.png"]
+              var burgers = ["./img/friet.png", "./img/shoarma.jpg"]
               const random = burgers[Math.floor(Math.random() * burgers.length)];
               menu.style.backgroundImage = `url(${random}`
             }, 5000);
