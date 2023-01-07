@@ -717,6 +717,112 @@ setInterval(function() {
       }, 5000);
       
       </script>
+      <div id="restaurant-menu" >
+        <div class="section-title text-center center"style="background-image: url(./img/friet.png);" id="menus">
+          <div class="overlay">
+            <h2>Menu's</h2>
+            <hr>
+            <p>Genoeg keuze uit onze verschillende menu's</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <div class="menu-section">
+                <h2 class="menu-section-title">Menu's2</h2>
+                <hr>
+                    <div class="menu-item">
+                      <div class="menu-item-name"> Appelmoes</div>
+                      <div class="menu-item-price"> €0,70* </div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-name"> Beker chillisaus</div>
+                      <div class="menu-item-price"> €1,00* </div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-name"> Beker mayo klein</div>
+                      <div class="menu-item-price"> €1,00* </div>
+                      <div class="menu-item-name"> Beker mayo groot</div>
+                      <div class="menu-item-price"> €8,88* </div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-name"> Beker curry klein</div>
+                      <div class="menu-item-price"> €1,10* </div>
+                      <div class="menu-item-name">  Beker curry groot</div>
+                      <div class="menu-item-price"> €8,88* </div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-name"> Beker joppiesaus klein</div>
+                      <div class="menu-item-price"> €1,10* </div>
+                      <div class="menu-item-name"> Beker joppiesaus groot</div>
+                      <div class="menu-item-price"> €8,88* </div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-name"> Beker juin</div>
+                      <div class="menu-item-price"> €1,40* </div>
+                      <div class="menu-item-name"> Beker knoflook</div>
+                      <div class="menu-item-price"> €1,10* </div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-name"> Beker mix</div>
+                      <div class="menu-item-price"> €1,40* </div>
+                      <div class="menu-item-name"> Beker picallili</div>
+                      <div class="menu-item-price"> €1,10* </div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-name"> Beker satesaus klein</div>
+                      <div class="menu-item-price"> €1,50* </div>
+                      <div class="menu-item-name"> Beker satesaus middel</div>
+                      <div class="menu-item-price"> €8,88* </div>
+                      <div class="menu-item-name"> Beker satesaus groot</div>
+                      <div class="menu-item-price"> €8,88* </div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-name"> Beker speciaal klein</div>
+                      <div class="menu-item-price"> €1,40* </div>
+                      <div class="menu-item-name"> Beker speciaal groot</div>
+                      <div class="menu-item-price"> €1,10* </div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-name"> Beker stoofvlees klein</div>
+                      <div class="menu-item-price"> €2,00* </div>
+                      <div class="menu-item-name"> Beker stoofvlees middel</div>
+                      <div class="menu-item-price"> €8,88* </div>
+                      <div class="menu-item-name"> Beker stoofvlees groot</div>
+                      <div class="menu-item-price"> €8,88* </div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-name"> Beker tartaar saus</div>
+                      <div class="menu-item-price"> €1,10* </div>
+                      <div class="menu-item-name"> Beker tomatenketchup</div>
+                      <div class="menu-item-price"> €1,10* </div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-name"> Beker ui</div>
+                      <div class="menu-item-price"> €1,30* </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-textt text-center center">
+                <div class="overlay">
+              <br>
+              <p>* aan deze prijzen kunnen geen rechten worden ontleend. Prijzen in de Cafetaria zijn leidend.</p>
+               
+            </div>
+            </div>
+            </div>
+            </div>
+            <script>
+              let menu = document.getElementById("menus")
+              console.log("saus")
+            setInterval(function() {
+              var burgers = ["./img/friet.png"]
+              const random = burgers[Math.floor(Math.random() * burgers.length)];
+              menu.style.backgroundImage = `url(${random}`
+            }, 5000);
+            
+            </script>
 <!-- Call Reservation Section 
 <div id="call-reservation" class="text-center">
   <div class="container">
