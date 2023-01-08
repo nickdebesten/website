@@ -11,3 +11,6 @@ app.use("/css", express.static(__dirname + "/css"));
 app.get(["/", "/index.html"], (req, res) => {
     res.sendFile(__dirname + "/index.html");
   })
+app.get(["/menu.html"], (req, res) => {
+    res.sendFile(__dirname + "/menu.html");
+  })
