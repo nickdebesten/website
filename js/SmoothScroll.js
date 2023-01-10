@@ -27,7 +27,7 @@ var defaultOptions = {
 
     // Keyboard Settings
     keyboardSupport   : true,  // option
-    arrowScroll       : 50,     // [px]
+    arrowScroll       : 500,     // [px]
 
     // Other
     touchpadSupport   : true,

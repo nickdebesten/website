@@ -29,6 +29,7 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,7 +52,12 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="./index.html" class="page-scroll">Home</a></li>
-        <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
+        <li><a href="#restaurant-menu" class="page-scroll">Friet</a></li>
+        <li><a href="#snacks" class="page-scroll">Snacks</a></li>
+        <li><a href="#burgers" class="page-scroll">Burgers</a></li>
+        <li><a href="#drinken" class="page-scroll">Drinken</a></li>
+        <li><a href="#ijs" class="page-scroll">ijs</a></li>
+        <li><a href="#sushi" class="page-scroll">Sushi</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -70,6 +76,7 @@
     </div>
   </div>
 </header>
+
 <!-- About Section 
 <div id="about">
   <div class="container">
@@ -88,6 +95,9 @@
   </div>
 </div>-->
 <!-- Restaurant Menu Section -->
+<button id="myBtn" title="Go to top"><a href="#page-top" class="page-scroll" style="color: white"><span class="material-symbols-outlined">
+  arrow_upward
+  </span></a></button>
 <br>
 <div id="restaurant-menu">
   <div class="section-textt text-center center">
@@ -460,17 +470,6 @@
     </div>
   </div>
 </div>
-
-<script>
-  let snacks = document.getElementById("snacks")
-setInterval(function() {
-  var burgers = ["./img/kipfingers.jpg", "./img/kipnuggets.jpg","./img/kipnuggets2.jpg", "./img/hotwingss.jpg"]
-  const random = burgers[Math.floor(Math.random() * burgers.length)];
-  snacks.style.backgroundImage = `url(${random}` 
-}, 5000);
-
-</script>
-
 <div id="restaurant-menu" >
   <div class="section-title text-center center"style="background-image: url(./img/bacon\ boss.jpg);" id="burgers">
     <div class="overlay">
@@ -601,15 +600,7 @@ setInterval(function() {
       </div>
       </div>
       </div>
-      <script>
-        let backgroundid = document.getElementById("burgers")
-      setInterval(function() {
-        var burgers = ["./img/burger1.jpg", "./img/burger2.jpg","./img/burger3.jpg", "./img/burger4.jpg", "./img/bacon\ boss.jpg"]
-        const random = burgers[Math.floor(Math.random() * burgers.length)];
-        backgroundid.style.backgroundImage = `url(${random}` 
-      }, 5000);
-      
-      </script>
+
 <div id="restaurant-menu" >
   <div class="section-title text-center center"style="background-image: url(./img/mayo.jpg);" id="saus">
     <div class="overlay">
@@ -706,15 +697,6 @@ setInterval(function() {
       </div>
       </div>
       </div>
-      <script>
-        let saus = document.getElementById("saus")
-      setInterval(function() {
-        var burgers = ["./img/mayo.jpg", "./img/satesaus.png","./img/curry.png"]
-        const random = burgers[Math.floor(Math.random() * burgers.length)];
-        saus.style.backgroundImage = `url(${random}`
-      }, 5000);
-      
-      </script>
       <div id="restaurant-menu" >
         <div class="section-title text-center center"style="background-image: url(./img/friet.png);" id="menus">
           <div class="overlay">
@@ -777,15 +759,7 @@ setInterval(function() {
             </div>
             </div>
             </div>
-            <script>
-              let menu = document.getElementById("menus")
-            setInterval(function() {
-              var burgers = ["./img/friet.png", "./img/shoarma.jpg"]
-              const random = burgers[Math.floor(Math.random() * burgers.length)];
-              menu.style.backgroundImage = `url(${random}`
-            }, 5000);
-            
-            </script>
+
                   <div id="restaurant-menu" >
                     <div class="section-title text-center center"style="background-image: url(./img/ajampangang.jpg);" id="chinees">
                       <div class="overlay">
@@ -846,15 +820,6 @@ setInterval(function() {
                         </div>
                         </div>
                         </div>
-                        <script>
-                          let chinees = document.getElementById("chinees")
-                        setInterval(function() {
-                          var burgers = ["./img/ajampangang.jpg", "./img/babipangang.jpg"]
-                          const random = burgers[Math.floor(Math.random() * burgers.length)];
-                          chinees.style.backgroundImage = `url(${random}`
-                        }, 5000);
-                        
-                        </script>
                   <div id="restaurant-menu" >
                     <div class="section-title text-center center"style="background-image: url(./img/Huzarensalade.jpg);" id="sla">
                       <div class="overlay">
@@ -1027,15 +992,6 @@ setInterval(function() {
       </div>
       </div>
       </div>
-      <script>
-        let drinken = document.getElementById("drinken")
-      setInterval(function() {
-        var burgers = ["./img/cola.png", "./img/IJsthee.jpg", "./img/sinas.jpg", "./img/dommelsch.jpg", "./img/jupiler.jpg"]
-        const random = burgers[Math.floor(Math.random() * burgers.length)];
-        drinken.style.backgroundImage = `url(${random}`
-      }, 5000);
-      
-      </script>
       <div id="restaurant-menu" >
         <div class="section-title text-center center"style="background-image: url(./img/reuzebeker.jpg);" id="ijs">
           <div class="overlay">
@@ -1162,15 +1118,7 @@ setInterval(function() {
             </div>
             </div>
             </div>
-            <script>
-              let ijs = document.getElementById("ijs")
-            setInterval(function() {
-              var burgers = ["./img/bluemonster.jpg", "./img/kinderijsje.jpeg", "./img/reuzebeker.jpg"]
-              const random = burgers[Math.floor(Math.random() * burgers.length)];
-              ijs.style.backgroundImage = `url(${random}`
-            }, 5000);
-            
-            </script>
+
       <div id="restaurant-menu" >
         <div class="section-title text-center center"style="background-image: url(./img/sushi1.jpg);" id="sushi">
           <div class="overlay">
@@ -1540,15 +1488,6 @@ setInterval(function() {
             </div>
             </div>
             </div>
-            <script>
-              let sushi = document.getElementById("sushi")
-            setInterval(function() {
-              var burgers = ["./img/sushi1.jpg", "./img/sushi2.jpg", "./img/sushi3.jpg", "./img/sushi4.jpg", "./img/sushi5.jpg", "./img/sushi6.jpg", "./img/sushi7.jpg", "./img/sushi8.jpg", "./img/sushi9.jpg"]
-              const random = burgers[Math.floor(Math.random() * burgers.length)];
-              sushi.style.backgroundImage = `url(${random}`
-            }, 5000);
-            
-            </script>
 <!-- Call Reservation Section 
 <div id="call-reservation" class="text-center">
   <div class="container">
@@ -1598,5 +1537,7 @@ setInterval(function() {
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/BackToTop.js"></script>
+<script type="text/javascript" src="js/SlideShow.js"></script>
 </body>
 </html>
