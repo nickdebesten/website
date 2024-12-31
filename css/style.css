@@ -1,21 +1,15 @@
 body, html {
-	font-family: 'Raleway', sans-serif;
-	text-rendering: optimizeLegibility !important;
-	-webkit-font-smoothing: antialiased !important;
+	/* font-family: 'Raleway', sans-serif; */
+	/* text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important; */
 	color: black;
 	font-weight: 300;
 	width: 100% !important;
 	height: 100% !important;
 }
-body::-webkit-scrollbar {
-	width: 12px;
-	-webkit-overflow-scrolling: auto !important;
-  }
+
   
-  body::-webkit-scrollbar-track {
-	background: #3b2b24;
-	-webkit-overflow-scrolling: auto !important;
-  }
+
   #myBtn {
 	display: none; /* Hidden by default */
 	position: fixed; /* Fixed/sticky position */
@@ -24,7 +18,7 @@ body::-webkit-scrollbar {
 	z-index: 99; /* Make sure it does not overlap */
 	border: none; /* Remove borders */
 	outline: none; /* Remove outline */
-	background-color: #885e4b; /* Set a background color */
+	background-color: #614051; /* Set a background color */
 	color: white; /* Text color */
 	cursor: pointer; /* Add a mouse pointer on hover */
 	padding: 15px; /* Some padding */
@@ -33,14 +27,9 @@ body::-webkit-scrollbar {
   }
   
   #myBtn:hover {
-	background-color: #555; /* Add a dark-grey background on hover */
+	background-color: #555555; /* Add a dark-grey background on hover */
   }
-  body::-webkit-scrollbar-thumb {
-	background-color: #885e4b;  
-	border-radius: 20px;      
-	-webkit-overflow-scrolling: auto !important;
-	border: 3px solid #885e4b; 
-  }
+
 h2 {
 	margin: 0 0 20px 0;
 	font-weight: 500;
@@ -73,25 +62,6 @@ p.intro {
 	margin: 12px 0 0;
 	line-height: 24px;
 }
-a:link {
-	color: orange;
-  }
-  
-  /* visited link */
-  a:visited {
-	color: orange;
-  }
-  
-  /* mouse over link */
-  a:hover {
-	color: orange;
-  }
-  
-  /* selected link */
-  a:active {
-	color: orange;
-  }
-
 ul, ol {
 	list-style: none;
 }
@@ -122,7 +92,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #885e4b;
+	background: #614051;
 	margin: 0;
 	margin-bottom: 40px;
 	border: 0;
@@ -147,7 +117,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
-	font-family: 'Dancing Script', cursive;
+	/* font-family: 'Dancing Script', cursive; */
 	font-size: 36px;
 	color: white;
 	font-weight: 700;
@@ -164,23 +134,23 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: 10px 15px 0 15px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #885e4b;
+	color: #614051;
 }
 .on {
-	background-color: #3b2b24 !important;
+	background-color: #34243b !important;
 	padding: 0 !important;
 	padding: 10px 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #885e4b !important;
+	color: #82576d !important;
 	background-color: transparent;
 }
 .navbar-toggle {
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #885e4b;
-	border-color: #885e4b;
+	background-color: #614051;
+	border-color: #614051;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -203,7 +173,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #3b2b24;
+	background-color: #614051;
 	border: 0;
 	padding: 14px 20px;
 	margin: 0;
@@ -216,14 +186,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
-	background-color: #885e4b;
+	background-color: #614051;
 }
 /* Header Section */
 .intro {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/background.jpeg) no-repeat center center;
+	background: url(../img/bg.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -235,7 +205,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .intro h1 {
-	font-family: 'Dancing Script', cursive;
+	/* font-family: 'Dancing Script', cursive; */
 	color: #fff;
 	font-size: 10em;
 	font-weight: 700;
@@ -244,7 +214,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 @media screen and (max-width: 800px) {
 	.intro h1 {
-		font-family: 'Dancing Script', cursive;
+		/* font-family: 'Dancing Script', cursive; */
 		color: #fff;
 		font-size: 5em;
 		font-weight: 700;
@@ -253,7 +223,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	}
 }
 .intro span {
-	color: #885e4b;
+	color: #614051;
 	font-weight: 600;
 }
 .intro p {
@@ -302,27 +272,7 @@ background-size: cover;
 	margin: 15px 0 30px;
 }
 /* Menu Section */
-#restaurant-menu {
-	padding: 0 0 10% 0;
 
-	margin: 0%
-}
-#restaurant-menu .section-title {
-	background: #444 url(../img/burger_burger.jpg) center center no-repeat fixed;
-	background-size: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
-#restaurant-burger .section-title {
-	background: #444 url(../img/bacon\ boss.jpg) center center no-repeat fixed;
-	background-size: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
 .section-textt {
 	background-size: 100%;
 	-webkit-background-size: cover;
@@ -330,51 +280,7 @@ background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;	
 }
-#restaurant-menu .section-title h2 {
-	color: #fff;
-}
-#restaurant-menu img {
-	width: 300px;
-	box-shadow: 15px 0 #885e4b;
-}
-#restaurant-menu h3 {
-	padding: 10px 0;
-	text-transform: uppercase;
-}
-#restaurant-menu .menu-section hr {
-	margin: 0 auto;
-}
-#restaurant-menu .menu-section {
-	margin: 0 20px 80px;
-}
-#restaurant-menu .menu-section-title {
-	font-size: 26px;
-	display: block;
-	font-weight: 500;
-	color: #444;
-	margin: 20px 0;
-	text-align: center;
-}
-#restaurant-menu .menu-item {
-	margin: 35px 0;
-	font-size: 18px;
-}
-#restaurant-menu .menu-item-name {
-	font-weight: 600;
-	font-size: 17px;
-	color: #555;
-	border-bottom: 2px dotted rgb(213, 213, 213);
-}
-#restaurant-menu .menu-item-description {
-	font-style: italic;
-	font-size: 15px;
-}
-#restaurant-menu .menu-item-price {
-	float: right;
-	font-weight: 600;
-	color: #555;
-	margin-top: -26px;
-}
+
 /* Portfolio Section */
 #portfolio {
 	padding: 0 0 120px 0;
@@ -553,7 +459,7 @@ ol.type li a:hover {
 #call-reservation {
 	padding: 90px 0;
 	color: #fff;
-	background: #3b2b24; /* Old browsers */
+	background: #26243b; /* Old browsers */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', endColorstr='#779936', GradientType=0 ); /* IE6-9 */
 }
 #call-reservation .overlay {
@@ -626,16 +532,16 @@ label {
 	box-shadow: transparent;
 }
 .form-control::-webkit-input-placeholder {
-color: #777;
+color: #777777;
 }
 .form-control:-moz-placeholder {
-color: #777;
+color: #777777;
 }
 .form-control::-moz-placeholder {
-color: #777;
+color: #777777;
 }
 .form-control:-ms-input-placeholder {
-color: #777;
+color: #777777;
 }
 #contact .contact-item {
 	margin: 20px 0 40px 0;
@@ -656,7 +562,7 @@ color: #777;
 	padding: 50px 0 0 0;
 }
 #footer h3 {
-	color: #885e4b;
+	color: #614051;
 	font-weight: 400;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -695,3 +601,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 #footer a:hover {
 	color: #333;
 }
+
+
+#foto {
+	padding: 0 0 10% 0;
+
+	margin: 0%
+}
+#foto .section-title {
+	background: #ffffff url(../img/program-img1.jpg) center center no-repeat fixed;
+	background-size: 100%;
+	color: white;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+#contact_form {
+    background: #f8f9fa;
+    color: #212529;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+
+  #contact_form .form-group {
+    margin-bottom: 20px;
+  }
+
+  #contact_form .form-control {
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  #contact_form .btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #614051;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+
+  #contact_form .btn:hover {
+    background-color: #4e3540;
+    transform: translateY(-2px);
+  }
+
+  #contact_form .btn:active {
+    transform: translateY(1px);
+  }
+
+  .section-title {
+    margin-bottom: 40px;
+  }
