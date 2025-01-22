@@ -218,7 +218,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Use a Different Image for Phones */
 @media (max-width: 480px) {
     .intro {
-        background: url(../img/test.jpg) no-repeat center center; /* Mobile-optimized image */
+        background: url(../img/bg.jpg) no-repeat center center; /* Mobile-optimized image */
         background-size: cover; /* Ensure it fits nicely */
         height: 30vh; /* Slightly reduce height for mobile */
 		display: flex;
