@@ -1,4 +1,6 @@
 test/node_modules
 test/package-lock.json
-test/
-test2/
+test2/node_modules
+test2/package-lock.json
+test2/submissions.json
+test2/public
