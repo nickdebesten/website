@@ -6,6 +6,7 @@ body, html {
 	font-weight: 300;
 	width: 100% !important;
 	height: 100% !important;
+	
 }
 
   
@@ -746,17 +747,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 	color: white;
   }
   
-  .btn-success {
-	background-color: #28a745;
-	color: white;
-  }
-  
-  .btn-danger {
-	background-color: #dc3545;
-	color: white;
-  }
   
   .btn:hover {
+	background-color: #614051;
 	transform: translateY(-5px);
   }
   

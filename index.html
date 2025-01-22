@@ -106,9 +106,9 @@
       <div class="card custom-card">
         <div class="card-body text-center">
           <h2 class="price">€99</h2>
-          <h5 class="card-title">Altijd alléén Abonnement</h5>
-          <p class="card-text">Dummy text for the description. This could be some brief details about the package and what it offers.</p>
-          <button class="btn btn-primary">Selecteren</button>
+          <h5 class="card-title">A-abonnement</h5>
+          <p class="card-text">Altijd Alleen.</p>
+        
         </div>
       </div>
     </div>
@@ -118,9 +118,9 @@
       <div class="card custom-card">
         <div class="card-body text-center">
           <h2 class="price">€80</h2>
-          <h5 class="card-title">Alléén of Samen</h5>
-          <p class="card-text">Dummy text for the description. This could be some brief details about the package and what it offers.</p>
-          <button class="btn btn-primary">Selecteren</button>
+          <h5 class="card-title">AS-abonnement</h5>
+          <p class="card-text">Alleen of samen.</p>
+       
         </div>
       </div>
     </div>
@@ -130,9 +130,9 @@
       <div class="card custom-card">
         <div class="card-body text-center">
           <h2 class="price">€70</h2>
-          <h5 class="card-title">Altijd Samen</h5>
-          <p class="card-text">Dummy text for the description. This could be some brief details about the package and what it offers.</p>
-          <button class="btn btn-primary">Selecteren</button>
+          <h5 class="card-title">S-abonnement</h5>
+          <p class="card-text">Altijd samen.</p>
+
         </div>
       </div>
     </div>
@@ -149,48 +149,50 @@
     </div>
   </div>
   <div class="container d-flex justify-content-center">
-    <form class="form-horizontal" action=" " method="post" id="contact_form">
+    <form id="contact_form">
       <fieldset>
-        <!-- First Name -->
-        <div class="form-group text-center">
-          <label class="d-block">Voornaam</label>
-          <div>
-            <input name="first_name" placeholder="Voornaam" class="form-control w-75 mx-auto" type="text">
+          <div class="form-group text-center">
+              <label class="d-block">Voornaam</label>
+              <div>
+                  <input name="first_name" placeholder="Voornaam" class="form-control w-75 mx-auto" type="text" required>
+              </div>
           </div>
-        </div>
-
-        <!-- Last Name -->
-        <div class="form-group text-center">
-          <label class="d-block">Achternaam</label>
-          <div>
-            <input name="last_name" placeholder="Achternaam" class="form-control w-75 mx-auto" type="text">
+          <div class="form-group text-center">
+              <label class="d-block">Achternaam</label>
+              <div>
+                  <input name="last_name" placeholder="Achternaam" class="form-control w-75 mx-auto" type="text" required>
+              </div>
           </div>
-        </div>
-
-        <!-- Email -->
-        <div class="form-group text-center">
-          <label class="d-block">E-Mail</label>
-          <div>
-            <input name="email" placeholder="E-Mail" class="form-control w-75 mx-auto" type="email">
+          <div class="form-group text-center">
+              <label class="d-block">E-Mail</label>
+              <div>
+                  <input name="email" placeholder="E-Mail" class="form-control w-75 mx-auto" type="email" required>
+              </div>
           </div>
-        </div>
-
-        <!-- Phone -->
-        <div class="form-group text-center">
-          <label class="d-block">Telefoon nummer</label>
-          <div>
-            <input name="phone" placeholder="06 12 34 56 78" class="form-control w-75 mx-auto" type="text">
+          <div class="form-group text-center">
+              <label class="d-block">Telefoon nummer</label>
+              <div>
+                  <input name="phone" placeholder="06 12 34 56 78" class="form-control w-75 mx-auto" type="text" required>
+              </div>
           </div>
-        </div>
-
-        <!-- Submit Button -->
-        <div class="form-group text-center">
-          <div>
-            <button type="submit" class="btn btn-primary">Verstuur</button>
+          <div class="form-group text-center">
+              <label class="d-block">Ik wil:</label>
+              <div>
+                  <select name="interest" class="form-control w-75 mx-auto" required>
+                      <option value="" disabled selected>Kies een optie</option>
+                      <option value="Meer informatie">Meer informatie</option>
+                      <option value="een kennismakingstraining">Kennismakingstraining</option>
+                  </select>
+              </div>
           </div>
-        </div>
+          <div class="form-group text-center">
+              <div>
+                  <button type="submit" class="btn btn-primary">Verstuur</button>
+              </div>
+          </div>
       </fieldset>
-    </form>
+  </form>
+  
   </div>
 </div>
 
@@ -239,7 +241,6 @@
     </div>
   </div>
 </div>
-
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 

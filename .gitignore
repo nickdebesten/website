@@ -1,2 +1,4 @@
 test/node_modules
 test/package-lock.json
+test/
+test2/

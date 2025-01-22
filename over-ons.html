@@ -77,7 +77,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-            <h1>Over <span style="color: #614051;">ons</span></h1>
+          <h3><strong>Over Ons</strong></h3>
             <p>
               Go2B-fit biedt een korte, intensieve en persoonlijke gezondheidstraining, één keer per week, altijd op afspraak en onder begeleiding van een deskundige personal trainer. Je traint gewoon in je dagelijkse kleding, zonder dat douchen nodig is, omdat je weinig tot niet zweet door de slowmotion uitvoering en de koele temperatuur in de studio. Of je nu alleen wilt trainen of liever samen met iemand anders: de Go2B-fit training is gericht op resultaat, veilig voor iedereen en jarenlang vol te houden.
               Onze studio biedt rust en privacy, zodat je optimaal kunt focussen op je training. Bovendien is de Go2B-fit training haalbaar voor iedereen, ongeacht leeftijd of fitnessniveau.
@@ -88,6 +88,7 @@
               Go2B-fit vind je aan de Tilburgseweg 1-01 in Goirle.
               We zien je graag in onze studio!
             </p>
+            <button id="scrollButton" class="btn btn-primary" style="height: 50%; width: 50%; background-color: #614051;">Klik hier!</button>
           </div>
           
       </div>
@@ -135,49 +136,51 @@
     </div>
   </div>
   <div class="container d-flex justify-content-center">
-    <form class="form-horizontal" action=" " method="post" id="contact_form">
+    <form id="contact_form">
       <fieldset>
-        <!-- First Name -->
-        <div class="form-group text-center">
-          <label class="d-block">Voornaam</label>
-          <div>
-            <input name="first_name" placeholder="Voornaam" class="form-control w-75 mx-auto" type="text">
+          <div class="form-group text-center">
+              <label class="d-block">Voornaam</label>
+              <div>
+                  <input name="first_name" placeholder="Voornaam" class="form-control w-75 mx-auto" type="text" required>
+              </div>
           </div>
-        </div>
-
-        <!-- Last Name -->
-        <div class="form-group text-center">
-          <label class="d-block">Achternaam</label>
-          <div>
-            <input name="last_name" placeholder="Achternaam" class="form-control w-75 mx-auto" type="text">
+          <div class="form-group text-center">
+              <label class="d-block">Achternaam</label>
+              <div>
+                  <input name="last_name" placeholder="Achternaam" class="form-control w-75 mx-auto" type="text" required>
+              </div>
           </div>
-        </div>
-
-        <!-- Email -->
-        <div class="form-group text-center">
-          <label class="d-block">E-Mail</label>
-          <div>
-            <input name="email" placeholder="E-Mail" class="form-control w-75 mx-auto" type="email">
+          <div class="form-group text-center">
+              <label class="d-block">E-Mail</label>
+              <div>
+                  <input name="email" placeholder="E-Mail" class="form-control w-75 mx-auto" type="email" required>
+              </div>
           </div>
-        </div>
-
-        <!-- Phone -->
-        <div class="form-group text-center">
-          <label class="d-block">Telefoon nummer</label>
-          <div>
-            <input name="phone" placeholder="06 12 34 56 78" class="form-control w-75 mx-auto" type="text">
+          <div class="form-group text-center">
+              <label class="d-block">Telefoon nummer</label>
+              <div>
+                  <input name="phone" placeholder="06 12 34 56 78" class="form-control w-75 mx-auto" type="text" required>
+              </div>
           </div>
-        </div>
-
-        <!-- Submit Button -->
-        <div class="form-group text-center">
-          <div>
-            <button type="submit" class="btn btn-primary">Verstuur</button>
+          <div class="form-group text-center">
+              <label class="d-block">Ik wil:</label>
+              <div>
+                  <select name="interest" class="form-control w-75 mx-auto" required>
+                      <option value="" disabled selected>Kies een optie</option>
+                      <option value="Meer informatie">Meer informatie</option>
+                      <option value="een kennismakingstraining">Kennismakingstraining</option>
+                  </select>
+              </div>
           </div>
-        </div>
+          <div class="form-group text-center">
+              <div>
+                  <button type="submit" class="btn btn-primary">Verstuur</button>
+              </div>
+          </div>
       </fieldset>
-    </form>
-  </div>
+  </form>
+</div>
+
 </div>
   
 
@@ -217,6 +220,14 @@
 
     </div>
   </div>
+  <script>
+    // Smooth scroll with JavaScript
+    document.getElementById('scrollButton').addEventListener('click', function () {
+        document.getElementById('foto').scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+</script>
 
   <!-- Copyright Section -->
   <div class="container-fluid text-center copyrights">
