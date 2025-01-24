@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = 3000;
+const PORT = 1038;
 
 // JSON-bestand om gegevens op te slaan
 const submissionsFile = path.join(__dirname, 'submissions.json');
